@@ -1,0 +1,8 @@
+{
+    "name": "drupal/drutopia_core",
+    "description": "Drutopia core is a base feature providing core components required by other features.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "homepage": "https://gitlab.com/drutopia/drutopia_core",
+    "minimum-stability": "dev"
+}
