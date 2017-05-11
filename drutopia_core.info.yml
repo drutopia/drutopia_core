@@ -1,4 +1,4 @@
-name: Drutopia Core
+name: 'Drutopia Core'
 description: 'Provides core components required by other features.'
 type: module
 core: 8.x
@@ -9,9 +9,6 @@ dependencies:
   - image
   - node
   - paragraphs
-  - paragraphs_base_files
-  - paragraphs_base_image
-  - paragraphs_base_text
   - responsive_image
   - taxonomy
   - text
