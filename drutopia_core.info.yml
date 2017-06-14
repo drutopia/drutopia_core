@@ -3,6 +3,7 @@ description: 'Provides core components required by other features.'
 type: module
 core: 8.x
 dependencies:
+  - datetime
   - entity_reference_revisions
   - field
   - file
