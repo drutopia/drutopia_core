@@ -1,7 +1,7 @@
 langcode: en
 status: true
 dependencies: {  }
-id: content_editor
-label: 'Content editor'
+id: editor
+label: 'Editor'
 weight: 3
 is_admin: null
