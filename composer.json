@@ -7,6 +7,6 @@
   "minimum-stability": "dev",
   "require": {
     "drupal/entity_reference_revisions": "^1.2",
-    "drupal/paragraphs": "^1.1",
+    "drupal/paragraphs": "^1.1"
   }
 }
