@@ -12,8 +12,16 @@ actions:
     value: 'access site in maintenance mode'
   'access user profiles':
     value: 'access user profiles'
+  'Administer account settings':
+    value: 'Administer account settings'
+  'administer blocks':
+    value: 'administer blocks'
+  'Administer date-time':
+    value: 'Administer date-time'
   'administer nodes':
     value: 'administer nodes'
+  'Administer site information':
+    value: 'Administer site information'
   'administer taxonomy':
     value: 'administer taxonomy'
   'administer users':
@@ -24,6 +32,8 @@ actions:
     value: 'create url aliases'
   'delete all revisions':
     value: 'delete all revisions'
+  'Edit contact form':
+    value: 'Edit contact form'
   'revert all revisions':
     value: 'revert all revisions'
   'use text format restricted_html':
