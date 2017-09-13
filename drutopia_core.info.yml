@@ -3,10 +3,11 @@ description: 'Provides core components required by other features.'
 type: module
 core: 8.x
 dependencies:
+  - block_content
   - config_actions
   - config_perms
-  - block_content
   - datetime
+  - ds
   - entity_reference_revisions
   - field
   - file

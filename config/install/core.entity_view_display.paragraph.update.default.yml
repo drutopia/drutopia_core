@@ -7,7 +7,30 @@ dependencies:
     - paragraphs.paragraphs_type.update
   module:
     - datetime
+    - ds
     - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: true
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+    regions:
+      left:
+        - field_update_date
+      right:
+        - field_text
 id: paragraph.update.default
 targetEntityType: paragraph
 bundle: update
@@ -19,7 +42,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
+    region: right
   field_update_date:
     weight: 0
     label: hidden
@@ -28,5 +51,5 @@ content:
       format_type: month_day_year
     third_party_settings: {  }
     type: datetime_default
-    region: content
+    region: left
 hidden: {  }
