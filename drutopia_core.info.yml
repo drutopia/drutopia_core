@@ -15,6 +15,7 @@ dependencies:
   - link
   - node
   - paragraphs
+  - rdf
   - responsive_image
   - taxonomy
   - text
