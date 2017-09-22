@@ -13,6 +13,7 @@ dependencies:
   - file
   - image
   - link
+  - metatag
   - node
   - paragraphs
   - rdf
