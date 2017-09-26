@@ -3,4 +3,6 @@ status: true
 dependencies: {  }
 id: update
 label: Update
+icon_uuid: null
+description: null
 behavior_plugins: {  }
