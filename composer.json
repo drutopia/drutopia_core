@@ -17,6 +17,9 @@
     "patches": {
       "drupal/config_perms": {
         "Add wildcard support": "https://www.drupal.org/files/issues/config_perms-path-wildcard-2818695-3.patch"
+      },
+      "drupal/entity_reference_revisions": {
+        "Support normalization without local revision ID": "https://www.drupal.org/files/issues/entity_reference_revisions-normalizer-2913713-2.patch"
       }
     }
   }
