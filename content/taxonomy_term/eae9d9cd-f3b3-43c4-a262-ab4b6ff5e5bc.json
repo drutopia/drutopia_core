@@ -7,11 +7,6 @@
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
         }
     },
-    "tid": [
-        {
-            "value": 1
-        }
-    ],
     "uuid": [
         {
             "value": "eae9d9cd-f3b3-43c4-a262-ab4b6ff5e5bc"
