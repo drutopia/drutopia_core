@@ -16,6 +16,7 @@
   "extra": {
     "patches": {
       "drupal/config_perms": {
+        "The permission is applied per route and not per path.": "https://www.drupal.org/files/issues/custom_per_path_issue-2927005-2.patch",
         "Add wildcard support": "https://www.drupal.org/files/issues/config_perms-path-wildcard-2818695-12.patch"
       },
       "drupal/entity_reference_revisions": {
