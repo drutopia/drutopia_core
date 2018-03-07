@@ -9,6 +9,7 @@ dependencies:
   - datetime
   - ds
   - entity_reference_revisions
+  - faqfield
   - field
   - file
   - image
