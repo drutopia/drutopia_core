@@ -36,8 +36,6 @@ actions:
     value: 'Edit contact form'
   'revert all revisions':
     value: 'revert all revisions'
-  'use text format restricted_html':
-    value: 'use text format restricted_html'
   'view all revisions':
     value: 'view all revisions'
   'view own unpublished content':
