@@ -19,6 +19,8 @@ dependencies:
   - paragraphs
   - rdf
   - responsive_image
+  - search_api
+  - search_api_db
   - taxonomy
   - text
   - user
