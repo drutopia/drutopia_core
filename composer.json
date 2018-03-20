@@ -7,7 +7,7 @@
   "minimum-stability": "dev",
   "require": {
     "drupal/ds": "^3.0-rc1",
-    "drupal/config_actions": "^1.0-beta1",
+    "drupal/config_actions": "^1.0-beta4",
     "drupal/config_perms": "^2.0-alpha1",
     "drupal/entity_reference_revisions": "^1.2",
     "drupal/faqfield": "^1.1",
@@ -16,9 +16,6 @@
   },
   "extra": {
     "patches": {
-      "drupal/config_actions": {
-        "Error when applying action and the target key doesn't exist": "https://www.drupal.org/files/issues/config_actions-transform-2911629-2.patch"
-      },
       "drupal/entity_reference_revisions": {
         "Support normalization without local revision ID": "https://www.drupal.org/files/issues/entity_reference_revisions-normalizer-2913713-2.patch"
       }
