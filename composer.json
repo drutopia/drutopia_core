@@ -17,7 +17,7 @@
   "extra": {
     "patches": {
       "drupal/core": {
-        "Datetime Range Views integration": "https://www.drupal.org/files/issues/2786577-8.4.4.patch"
+        "Datetime Range Views integration": "https://www.drupal.org/files/issues/2786577-270.patch"
       },
       "drupal/entity_reference_revisions": {
         "Support normalization without local revision ID": "https://www.drupal.org/files/issues/entity_reference_revisions-normalizer-2913713-2.patch"
