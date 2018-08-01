@@ -24,4 +24,5 @@ dependencies:
   - taxonomy
   - text
   - user
+  - video_embed_field
 package: Drutopia
