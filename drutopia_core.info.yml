@@ -21,6 +21,7 @@ dependencies:
   - responsive_image
   - search_api
   - search_api_db
+  - system (>=8.6)
   - taxonomy
   - text
   - user
