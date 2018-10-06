@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains install and update functions for Drutopia Core.
+ */
+
+/**
+ * Install new module dependencies.
+ *
+ * Drutopia Core 8.x-1.0-alpha6 added Video Embed Field.
+ */
+function drutopia_core_update_8100() {
+  $modules = [
+    'video_embed_field',
+  ];
+  \Drupal::service('module_installer')->install($modules);
+}
+
