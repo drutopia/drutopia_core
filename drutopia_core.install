@@ -10,10 +10,7 @@
  *
  * Drutopia Core 8.x-1.0-alpha6 added Video Embed Field.
  */
-function drutopia_core_update_8100() {
-  $modules = [
-    'video_embed_field',
-  ];
-  \Drupal::service('module_installer')->install($modules);
+function drutopia_core_update_8101() {
+  \Drupal::service('module_installer')->install(['video_embed_field']);
 }
 
