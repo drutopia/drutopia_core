@@ -3,4 +3,4 @@ status: true
 dependencies: {  }
 id: edit_contact_form
 label: 'Edit contact form'
-path: "entity.contact_form.collection\r\nentity.contact_form.edit_form"
+route: "entity.contact_form.collection\r\nentity.contact_form.edit_form"
