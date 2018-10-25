@@ -6,11 +6,15 @@
  */
 
 /**
- * Install new module dependencies.
- *
- * Drutopia Core 8.x-1.0-alpha6 added Video Embed Field.
+ * Enable dependent module Video Embed Field.
  */
 function drutopia_core_update_8101() {
   \Drupal::service('module_installer')->install(['video_embed_field']);
 }
 
+/**
+ * Enable dependent module FAQ Field.
+ */
+function drutopia_core_update_8102() {
+  \Drupal::service('module_installer')->install(['faqfield']);
+}
