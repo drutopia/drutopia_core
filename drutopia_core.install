@@ -20,8 +20,8 @@ function drutopia_core_update_8102() {
 }
 
 /**
- * Enable dependent modules Focal Point and Crop API.
+ * Enable dependent modules Crop API and Focal Point.
  */
 function drutopia_core_update_8103() {
-  \Drupal::service('module_installer')->install(['focal_point', 'crop']);
+  \Drupal::service('module_installer')->install(['crop', 'focal_point']);
 }
