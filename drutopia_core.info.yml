@@ -6,12 +6,14 @@ dependencies:
   - block_content
   - config_actions
   - config_perms
+  - crop
   - datetime
   - ds
   - entity_reference_revisions
   - faqfield
   - field
   - file
+  - focal_point
   - image
   - link
   - metatag
