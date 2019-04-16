@@ -18,3 +18,10 @@ function drutopia_core_update_8101() {
 function drutopia_core_update_8102() {
   \Drupal::service('module_installer')->install(['faqfield']);
 }
+
+/**
+ * Enable dependent modules Focal Point and Crop API.
+ */
+function drutopia_core_update_8103() {
+  \Drupal::service('module_installer')->install(['focal_point', 'crop']);
+}
