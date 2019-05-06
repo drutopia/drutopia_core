@@ -5,7 +5,7 @@ dependencies:
     - field.field.paragraph.slide.field_image
     - field.field.paragraph.slide.field_link
     - field.field.paragraph.slide.field_text
-    - image.style.max_2600x2600
+    - image.style.focal_point_2600x1300
     - paragraphs.paragraphs_type.slide
   module:
     - image
@@ -20,7 +20,7 @@ content:
     weight: 0
     label: visually_hidden
     settings:
-      image_style: max_2600x2600
+      image_style: focal_point_2600x1300
     third_party_settings: {  }
     type: image_url
     region: content
