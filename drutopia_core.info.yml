@@ -8,6 +8,7 @@ dependencies:
   - config_perms
   - crop
   - datetime
+  - default_content
   - ds
   - entity_reference_revisions
   - faqfield
