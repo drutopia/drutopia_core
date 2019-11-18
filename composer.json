@@ -33,9 +33,6 @@
             },
             "drupal/facets": {
                 "Hide facets when it is configured to hide the block without losing support for bigpipe and ajax facets": "https://www.drupal.org/files/issues/2019-04-08/facets-empty-block-2984465-26.patch"
-            },
-            "drupal/search_api": {
-                "Notice: Undefined index: total When we enable the module in the installation step": "https://www.drupal.org/files/issues/2931562-13--undefined_total_in_task_manager_batch_finish.patch"
             }
         }
     }
